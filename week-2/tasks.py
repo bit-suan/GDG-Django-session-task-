@@ -16,6 +16,7 @@ def print_Evens():
     if i % 2 == 0:
       print(i)
 print_Evens()
+
 # Write a program to find the largest number in a list.
 def find_max():
    n=int(input("How many elements? "))
@@ -25,7 +26,6 @@ def find_max():
         if num > max_num:
             max_num = num
  return max_num
-
 print(find_max())
   
   
